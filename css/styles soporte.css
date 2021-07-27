@@ -8,7 +8,7 @@
 /***********************menu*******************************/
 
 
-.navegacion nav img{
+.navegacion nav a img{
     width: 58px;
     height: 58px;
     float: right;
@@ -22,6 +22,10 @@
     float: left;
     margin: 0px;
     margin-right: 20px;
+}
+
+.navegacion nav ul a {
+	font-size: 110%;
 }
 
 .navegacion{
@@ -46,6 +50,7 @@
 
 .navegacion nav > ul > li{
 	display: inline-block;
+    margin-left: 1%;
 }
 
 .navegacion nav > ul > li > a{

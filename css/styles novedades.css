@@ -6,12 +6,13 @@
 body{
     background-color: rgb(15, 15, 15);
 }
+
 /***********************menu*******************************/
 
 
-.navegacion nav img{
+.navegacion nav a img{
     width: 58px;
-    height: 56px;
+    height: 58px;
     float: right;
     margin-right: 20px;
     margin-right: 0px;
@@ -25,8 +26,13 @@ body{
     margin-right: 20px;
 }
 
+.navegacion nav ul a {
+	font-size: 110%;
+}
+
 .navegacion{
 	width: 100%;
+    
 }
 
 .navegacion nav{
@@ -46,6 +52,7 @@ body{
 
 .navegacion nav > ul > li{
 	display: inline-block;
+    margin-left: 1%;
 }
 
 .navegacion nav > ul > li > a{
